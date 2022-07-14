@@ -6,16 +6,16 @@ react-native smart refresh
 
 ```sh
 npm install @wuye/react-native-smart-refresh
+yarn add @wuye/react-native-smart-refresh
 ```
 
 ## Usage
 
 ```js
-import ReactNativeSmartRefresh from "@wuye/react-native-smart-refresh";
+import { RefreshAnimateHeader } from '@wuye/react-native-smart-refresh';
 
 // ...
-
-const result = await ReactNativeSmartRefresh.multiply(3, 7);
+<RefreshAnimateHeader />;
 ```
 
 ## Contributing

@@ -1,12 +1,12 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import ReactNativeSmartRefreshViewManager from '@wuye/react-native-smart-refresh';
+import { SmartRefresh } from 'src/SmartRefresh';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ReactNativeSmartRefreshViewManager color="#32a852" style={styles.box} />
+      <SmartRefresh style={styles.box} />
     </View>
   );
 }
