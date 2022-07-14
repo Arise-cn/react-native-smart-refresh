@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "wuye-react-native-smart-refresh.podspec",
+    "react-native-smart-refresh.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
