@@ -111,10 +111,10 @@ export class RefreshAnimateHeader extends Component<
             speed={2}
             hardwareAccelerationAndroid={true}
             cacheStrategy={'strong'}
-            progress={this.offsetAnimated.interpolate({
+{/*             progress={this.offsetAnimated.interpolate({
               inputRange: [0, 300],
               outputRange: [0, 1],
-            })}
+            })} */}
             {...lottieOptions}
             source={source || require('./assets/cycle_animation.json')}
           />
